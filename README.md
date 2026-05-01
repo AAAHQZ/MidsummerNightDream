@@ -1,0 +1,2 @@
+# MidsummerNightDream
+利用旧设备部署hermes与端侧大模型的方案，又叫仲夏夜的银梦
