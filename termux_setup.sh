@@ -1,5 +1,5 @@
-# 使用 阿里云 termux源（可替换）
-sed -i 's@^\(deb.*stable main\)$@#\1\ndeb https://mirrors.aliyun.com/termux/termux-packages-24 stable main@' $PREFIX/etc/apt/sources.list
+# 切换使用pkg源
+termux-change-repo
 pkg upgrade
 
 # 使用 阿里云 cargo源（可替换）
