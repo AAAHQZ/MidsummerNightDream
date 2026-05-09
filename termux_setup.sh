@@ -20,7 +20,7 @@ pip config set global.index-url https://mirrors.huaweicloud.com/repository/pypi/
 pkg install -y git python clang rust make pkg-config libffi openssl nodejs ripgrep ffmpeg
 
 # 安装可选依赖
-# pkg install sshd ollama
+# pkg install openssh ollama
 
 # 设置服务自启动脚本
 cp ./service.sh $PREFIX/etc/service.sh
